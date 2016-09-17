@@ -1,5 +1,5 @@
 # j-sliding-banner
-Jquery banner plugin for websites. Easy to use and fully customizable.
+Jquery banner plugin for websites. Easy to use, responsive design and fully customizable.
 
 ###Screenshots
 ![alt tag](https://github.com/waiyanhein/j-sliding-banner/blob/master/banner.png)
