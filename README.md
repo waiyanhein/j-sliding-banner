@@ -45,11 +45,9 @@ Download jslidingbanner.zip and include j-sliding-banner.min.css,Jquery js file 
 		</div>
 	</div>
 ```
-####Step.3 initialize like below in Javascript
+####Step.3 initialize as below in Javascript
 ``
-$(function(){
-	$('#banner').jSlidingBanner();
-})
+$('#banner').jSlidingBanner();
 ``
 
 ####That's it. You are done. You can reference on the example project as well. It is pretty simple.
@@ -59,9 +57,7 @@ $(function(){
 ##Options
 ###Example of using option
 ``
-$(function(){
-	$('#banner').jSlidingBanner({ slideAnimationSpeed : 500 });
-})
+$('#banner').jSlidingBanner({ slideAnimationSpeed : 500 });
 ``
 
 ####setOverlay - TRUE/FALSE
