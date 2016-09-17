@@ -1,6 +1,9 @@
 # j-sliding-banner
 Jquery banner plugin for websites. Easy to use and fully customizable.
 
+###Screenshots
+![alt tag](https://github.com/waiyanhein/j-sliding-banner/blob/master/banner.png)
+
 ###Dependency
 Only Jquery is required. 
 
