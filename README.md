@@ -10,7 +10,7 @@ Only Jquery is required.
 ###How to use
 
 ####Step. 1 - import dependencies
-Include j-sliding-banner.min.css,Jquery js file and j-sliding-banner.min.js in the header of HTML. You can add bootstrap.css if you want to.
+Download jslidingbanner.zip and include j-sliding-banner.min.css,Jquery js file and j-sliding-banner.min.js in the header of HTML. You can add bootstrap.css if you want to.
 
 ####Step. 2 - Create  html in the following format
 ```html
