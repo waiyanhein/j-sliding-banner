@@ -1,18 +1,18 @@
 # j-sliding-banner
-Jquery banner plugin for websites. Easy to use, responsive design and fully customizable.
+jQuery banner plugin for websites. Easy to use, responsive design, and fully customizable.
 
-###Screenshots
+### Screenshots
 ![alt tag](https://github.com/waiyanhein/j-sliding-banner/blob/master/banner.png)
 
-###Dependency
+### Dependency
 Only Jquery is required. 
 
-###How to use
+### How to use
 
-####Step. 1 - import dependencies
-Download jslidingbanner.zip and include j-sliding-banner.min.css,Jquery js file and j-sliding-banner.min.js in the header of HTML. You can add bootstrap.css if you want to.
+#### Step. 1 - import dependencies
+Download jslidingbanner.zip and include j-sliding-banner.min.css, the jQuery JavaScript file, and j-sliding-banner.min.js in the HTML header. Optionally, you can also add bootstrap.css.
 
-####Step. 2 - Create  html in the following format
+#### Step. 2 - Create  html in the following format
 ```html
 <div id="banner">
 		<div class="sliding-banner-container">
@@ -45,31 +45,31 @@ Download jslidingbanner.zip and include j-sliding-banner.min.css,Jquery js file 
 		</div>
 	</div>
 ```
-####Step.3 initialize as below in Javascript
+#### Step.3 initialize
 ``
 $('#banner').jSlidingBanner();
 ``
 
-####That's it. You are done. You can reference on the example project as well. It is pretty simple.
+#### That's it
 
 
 
-##Options
-###Example of using option
+## Options
+### Example of using option
 ``
 $('#banner').jSlidingBanner({ slideAnimationSpeed : 500 });
 ``
 
-####setOverlay - TRUE/FALSE
-If you set it to false, dark overlay on image will be removed. If true, dark overlay will be added. Default is true.
+#### setOverlay - TRUE/FALSE
+If set to false, the dark overlay on the image will be removed. If set to true, the dark overlay will be added. The default value is true.
 
-####overlayColor - string(color code or color name)
-This is the color value for overlay. Default is "#000000". You can set overlay to whatever color you want. Red or green or whatever.
+#### overlayColor - string(color code or color name)
+This is the color value for the overlay. The default is "#000000". You can set the overlay to any color you desire, such as red, green, or any other color.
 
-####displayImageDuration - integer(Milliseconds)
-This option sets how long an image of slider will be displayed in milliseconds. Default is 4000 milliseconds. So 4 seconds.
+#### displayImageDuration - integer(Milliseconds)
+This option sets the duration, in milliseconds, for how long an image of the slider will be displayed. The default is 4000 milliseconds, equivalent to 4 seconds.
 
-####slideAnimationSpeed - integer(Milliseconds)
-This option sets how fast slider will animate when it changes from one image to another. Default is 500 milliseconds. So half a second.
+#### slideAnimationSpeed - integer(Milliseconds)
+This option sets the speed at which the slider will animate when transitioning from one image to another. The default is 500 milliseconds, which is equivalent to half a second.
 
 
